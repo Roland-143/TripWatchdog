@@ -1,6 +1,7 @@
 {
-  "name": "tripwatchdog",
+  "name": "TripWatchdog",
   "version": "1.0.0",
+  "private": true,
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
@@ -9,15 +10,28 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "axios": "^1.6.7",
     "expo": "~53.0.10",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.3"
+    "react-native": "0.79.4",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1",
+    "redux": "^4.2.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.27.2",
     "@babel/core": "^7.25.2",
+    "@babel/preset-typescript": "^7.27.1",
+    "@testing-library/react-native": "^12.2.0",
+    "@types/node": "^24.0.0",
     "@types/react": "~19.0.10",
+    "@types/react-native": "^0.73.0",
+    "babel-plugin-dotenv-import": "^3.0.1",
+    "metro-react-native-babel-transformer": "^0.77.0",
     "typescript": "~5.8.3"
-  },
-  "private": true
+  }
 }

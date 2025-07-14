@@ -1,0 +1,1 @@
+var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _axios=_interopRequireDefault(require("axios"));var api=_axios.default.create({baseURL:"http://localhost:3000/api/trips"||"http://localhost:3000/api/trips"});var _default=exports.default=api;

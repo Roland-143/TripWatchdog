@@ -35,3 +35,90 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React Native
+ios/build/
+android/app/build/
+*.keystore
+
+# Bundler
+.expo/
+.expo-shared/
+
+# Metro
+*.log
+*.tmp
+*.lock
+*.hmap
+
+# Environment
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# Build artifacts
+build/
+dist/
+
+# React Native specific files
+coverage/
+*.iml
+.idea/
+
+# Backend for saftey reasons i guess
+watchdog-server/node_modules/
+watchdog-server/.env
+watchdog-server/coverage/
+
+yarn.lock
+# typescript
+*.tsbuildinfo
